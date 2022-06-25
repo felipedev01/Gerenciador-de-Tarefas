@@ -3,10 +3,11 @@ import styles from './Header.module.css'
 export function Header(){
 
     return(
-        <div className={styles.Header}>
-          <h1>ToDOList</h1>
+        <header className={styles.Header}>
+          <strong className={styles.to}>to</strong>
+          <strong className={styles.do}>do</strong>
 
-        </div>
+        </header>
        
     )
 }

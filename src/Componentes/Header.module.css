@@ -8,8 +8,14 @@
     align-content: center;
     justify-content: center;
 
-
-    
-   
-
+}.to{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+    color: var(--blue-100);
+}.do{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+    color: var(--purpleDark-100);
 }

@@ -1,6 +1,8 @@
 import {Header} from './Componentes/Header'
+import {InputBox} from './Componentes/InputBox'
+import styles from './App.module.css'
 import './Global.css'
-import Styles from './main.module.css'
+
 
  export function App() {
  return(
@@ -9,7 +11,13 @@ import Styles from './main.module.css'
 
   <Header></Header>
 
-  <main className={Styles.main}></main>
+  <main className={styles.main}>
+    <InputBox></InputBox>
+
+  </main>
+  <div>
+
+  </div>
   </div>
 
   

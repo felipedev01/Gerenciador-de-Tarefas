@@ -9,6 +9,7 @@ export function InputBox(){
                 <textarea >
 
                 </textarea>
+                <button type="submit"></button>
             </form>
         </section>
     )

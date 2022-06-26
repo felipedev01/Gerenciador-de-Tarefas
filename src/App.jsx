@@ -1,5 +1,6 @@
 import {Header} from './Componentes/Header'
 import './Global.css'
+import Styles from './main.module.css'
 
  export function App() {
  return(
@@ -7,6 +8,8 @@ import './Global.css'
   <div>
 
   <Header></Header>
+
+  <main className={Styles.main}></main>
   </div>
 
   

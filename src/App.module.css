@@ -1,3 +1,14 @@
 .Wrapper{
-    background:red;
+    background:var(--gray-200);
+    height: 51.5rem;
+    max-width: 48rem;
+    margin:auto;
+    padding: 0 1rem;
+
+}
+main{
+    max-width: 46rem;
+    background: var(--gray-300);
+    height: 100%;
+    margin:auto;
 }

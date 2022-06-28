@@ -11,13 +11,7 @@ import './Global.css'
 
   <Header></Header>
 
-  <main className={styles.main}>
-    <InputBox></InputBox>
-
-  </main>
-  <div>
-
-  </div>
+  <main ></main>
   </div>
 
   

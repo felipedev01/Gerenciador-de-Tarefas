@@ -4,7 +4,10 @@ export function InputBox(){
 
     return(
         <form className={styles.InputBox}>
-           <textarea >
+           <textarea 
+           placeholder='Adicione uma nova tarefa'
+           required
+           >
 
            </textarea>
            <button>

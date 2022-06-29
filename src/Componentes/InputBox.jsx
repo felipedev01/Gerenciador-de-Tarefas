@@ -1,4 +1,5 @@
 import styles from './InputBox.module.css'
+import createLogo from '../Assets/Layer 2.svg'
 
 export function InputBox(){
 
@@ -12,6 +13,8 @@ export function InputBox(){
            </textarea>
            <button>
 
+            Criar
+             <img src={createLogo} size={40} alt="" />
            </button>
         </form>
     )

@@ -20,7 +20,16 @@ import './Global.css'
 
   <section className={styles.displayTask}>
 
-    <header></header>
+    <header>
+        <strong>Tarefas criadas
+        <span>0</span>
+        </strong>
+        
+        <strong className={styles.doneTasks}>Concluídas
+        <span>0</span>
+        </strong>
+        
+    </header>
 
   </section>
   </main>

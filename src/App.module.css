@@ -9,7 +9,35 @@
 }
 main{
     max-width: 46rem;
-    background: var(--gray-300);
     height: 100%;
     margin:auto;
+}.displayTask{
+    height:17.9375rem;
+    background: var(--gray-600);
+    margin-top:4rem;
+
+}header{
+
+    height: 2.6875rem;
+    border-bottom: 1px solid #333333;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}.doneTasks{
+    margin-right:0.5rem;
+    
+}.displayTask span{
+    width: 1.5625rem;
+    height: 1.1875rem;
+    Padding: 2px, 8px, 2px, 8px;
+    padding: 0.125rem 0.5rem 0,125rem 0.5rem;
+    padding: 0.125rem 0.5rem;
+    background: var(--gray-400);
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    color: var(--gray-200);
 }

@@ -17,6 +17,10 @@ import './Global.css'
 
   <main >
   <InputBox></InputBox>
+
+  <section className={styles.displayTask}>
+
+  </section>
   </main>
   </div>
 

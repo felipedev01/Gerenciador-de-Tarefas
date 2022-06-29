@@ -11,4 +11,8 @@ main{
     max-width: 46rem;
     height: 100%;
     margin:auto;
+}.displayTask{
+    height:17.9375rem;
+    background: var(--gray-400);
+    margin-top:4rem;
 }

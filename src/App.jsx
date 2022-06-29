@@ -20,6 +20,8 @@ import './Global.css'
 
   <section className={styles.displayTask}>
 
+    <header></header>
+
   </section>
   </main>
   </div>

@@ -13,6 +13,12 @@ main{
     margin:auto;
 }.displayTask{
     height:17.9375rem;
-    background: var(--gray-400);
+    background: var(--gray-600);
     margin-top:4rem;
+
+}header{
+
+    height:2.6875rem;
+    border-bottom: 1px solid #333333;
+
 }

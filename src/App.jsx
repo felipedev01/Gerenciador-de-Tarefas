@@ -1,6 +1,7 @@
 import {Header} from './Componentes/Header'
 import styles from './App.module.css'
 import {InputBox} from './Componentes/InputBox'
+import ClipBoard from '../src/Assets/Clipboard.png'
 
 import './Global.css'
 
@@ -30,7 +31,13 @@ import './Global.css'
         </strong>
         
     </header>
-
+    <div className={styles.taskContainerIcon}>
+    <img src={ClipBoard} className={styles.emptyIcon}></img>
+    </div>
+    <div className={styles.taskContainetText}>
+      <p className={styles.paragraph1}>Você ainda não tem tarefas cadastradas</p>
+      <p>Crie tarefas e organize seus itens a fazer</p>
+    </div>
   </section>
   </main>
   </div>

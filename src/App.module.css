@@ -40,4 +40,20 @@ main{
     border-radius: 999px;
     margin-left: 0.5rem;
     color: var(--gray-200);
-}
+}.emptyIcon{
+    margin: auto;
+    margin-top: 4rem;
+}.taskContainerIcon{
+    display:flex;
+}.taskContainetText{
+    width: 100%;
+    text-align: center;
+    color: var(--gray-300);
+    font-weight: 400;
+    height: 2.75rem;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+
+}.paragraph1{
+    font-weight: 700;
+} 

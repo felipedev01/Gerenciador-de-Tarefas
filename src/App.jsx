@@ -22,11 +22,18 @@ import './Global.css'
   <section className={styles.displayTask}>
 
     <header>
-        <strong>Tarefas criadas
+        <strong>
+          <span className={styles.createdTasksText}>
+          Tarefas criadas
+          </span>
         <span>0</span>
         </strong>
         
-        <strong className={styles.doneTasks}>Concluídas
+        <strong className={styles.doneTasks}>
+          <span className={styles.doneTasksText}>
+          Concluídas
+          </span>
+         
         <span>0</span>
         </strong>
         

@@ -63,5 +63,8 @@ main{
 }.doneTasksText{
     color: var(--purple-100)!important;
     background: transparent!Important;
+    padding: 0!Important;
 
+}.taskCount{
+    font-size: 0.75rem;
 }

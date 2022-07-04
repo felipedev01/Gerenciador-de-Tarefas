@@ -26,7 +26,7 @@ import './Global.css'
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>
-        <span>0</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
         <strong className={styles.doneTasks}>
@@ -34,7 +34,7 @@ import './Global.css'
           Concluídas
           </span>
          
-        <span>0</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
     </header>

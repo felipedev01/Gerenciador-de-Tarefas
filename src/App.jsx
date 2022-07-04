@@ -29,7 +29,11 @@ import './Global.css'
         <span>0</span>
         </strong>
         
-        <strong className={styles.doneTasks}>Concluídas
+        <strong className={styles.doneTasks}>
+          <span className={styles.doneTasksText}>
+          Concluídas
+          </span>
+         
         <span>0</span>
         </strong>
         

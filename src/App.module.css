@@ -60,4 +60,8 @@ main{
     color: var(--blue-100)!important;
     padding: 0!Important;
     margin: 0 !important;
+}.doneTasksText{
+    color: var(--purple-100)!important;
+    background: transparent!Important;
+
 }

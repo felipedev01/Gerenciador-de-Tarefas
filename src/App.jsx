@@ -1,7 +1,7 @@
 import {Header} from './Componentes/Header'
 import styles from './App.module.css'
 import {InputBox} from './Componentes/InputBox'
-import ClipBoard from '../src/Assets/Clipboard.png'
+import { DisplayTasksContent } from './Componentes/DisplayTasksContent'
 
 import './Global.css'
 
@@ -26,7 +26,7 @@ import './Global.css'
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>
-        <span>0</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
         <strong className={styles.doneTasks}>
@@ -34,17 +34,13 @@ import './Global.css'
           Concluídas
           </span>
          
-        <span>0</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
     </header>
-    <div className={styles.taskContainerIcon}>
-    <img src={ClipBoard} className={styles.emptyIcon}></img>
-    </div>
-    <div className={styles.taskContainetText}>
-      <p className={styles.paragraph1}>Você ainda não tem tarefas cadastradas</p>
-      <p>Crie tarefas e organize seus itens a fazer</p>
-    </div>
+
+    <DisplayTasksContent></DisplayTasksContent>
+   
   </section>
   </main>
   </div>

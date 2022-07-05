@@ -27,20 +27,29 @@ import styles from './DisplayTasksWithContent.module.css'
       
        <div className={styles.taskContainetText}>
 
-       {props.tasksContent.map(task=>{
+       <ul>
+
+        
+        {props.tasksContent.map(task=>{
 
                
-              return(
-                
-                   
-                <p key={task.id}>
+      return(
+  
+     <li
+     key={task.id}
+     >
+       
+
+            {task.content}
             
-               {task.content}
-                  </p>
-                
-               
-              )
-            })}
+     </li>
+       
+  
+ 
+          )
+         } )}
+        
+      </ul>
       
      </div>
       </div>

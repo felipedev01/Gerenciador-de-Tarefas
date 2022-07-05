@@ -14,7 +14,13 @@
     line-height: 1.4rem;
     margin-top: 1rem;
 
-}.paragraph1{
+}.taskContainetText ul{
+
+    list-style:none;
+
+}
+
+.paragraph1{
     font-weight: 700;
 }.createdTasksText{
     color: var(--blue-100)!important;

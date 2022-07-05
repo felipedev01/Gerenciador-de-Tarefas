@@ -12,7 +12,7 @@ import styles from './DisplayTasksWithContent.module.css'
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>
-        <span className={styles.taskCount}>10</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
         <strong className={styles.doneTasks}>
@@ -20,7 +20,7 @@ import styles from './DisplayTasksWithContent.module.css'
           Concluídas
           </span>
          
-        <span className={styles.taskCount}>12</span>
+        <span className={styles.taskCount}>2 de 5</span>
         </strong>
         
     </header>

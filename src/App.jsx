@@ -32,24 +32,6 @@ console.log(tasks)
 
   <section className={styles.displayTask}>
 
-    <header>
-        <strong>
-          <span className={styles.createdTasksText}>
-          Tarefas criadas
-          </span>
-        <span className={styles.taskCount}>0</span>
-        </strong>
-        
-        <strong className={styles.doneTasks}>
-          <span className={styles.doneTasksText}>
-          Concluídas
-          </span>
-         
-        <span className={styles.taskCount}>0</span>
-        </strong>
-        
-    </header>
-
     <DisplayTasksContent tasksContent={tasks}></DisplayTasksContent>
    
   </section>

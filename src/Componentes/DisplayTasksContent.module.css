@@ -16,4 +16,18 @@
 
 }.paragraph1{
     font-weight: 700;
+}.createdTasksText{
+    color: var(--blue-100)!important;
+    padding: 0!Important;
+    margin: 0 !important;
+}.taskCount{
+    font-size: 0.75rem;
+}.doneTasksText{
+    color: var(--purple-100)!important;
+    background: transparent!Important;
+    padding: 0!Important;
+
+}.doneTasks{
+    margin-right:0.5rem;
+    
 }

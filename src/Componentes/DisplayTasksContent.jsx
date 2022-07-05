@@ -26,7 +26,26 @@ export function DisplayTasksContent(props){
   }else{
 
     return(
+
       <div>
+      <header>
+        <strong>
+          <span className={styles.createdTasksText}>
+          Tarefas criadas
+          </span>
+        <span className={styles.taskCount}>10</span>
+        </strong>
+        
+        <strong className={styles.doneTasks}>
+          <span className={styles.doneTasksText}>
+          Concluídas
+          </span>
+         
+        <span className={styles.taskCount}>12</span>
+        </strong>
+        
+    </header>
+      
        <div className={styles.taskContainerIcon}>
       <img src={ClipBoard} className={styles.emptyIcon}></img>
       </div>

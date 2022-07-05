@@ -11,8 +11,20 @@ import './Global.css'
 
   const[tasks, setTasks]=useState([
 
-    'Trocar a caixa de areia do gato',
-    'Alimentar o gato'
+    {
+      id:1,
+      content:'Trocar a caixa de areia do gato',
+    },
+    {
+      id:2,
+      content:'Alimentar o gato',
+    },
+    {
+      id:3,
+      content:'Colocar o gato para dormir',
+    }
+    
+    
 ])
 
 console.log(tasks)

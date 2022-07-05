@@ -1,4 +1,5 @@
 import styles from './DisplayTasksWithContent.module.css'
+import Trash from '../Assets/trash.svg'
  
  
  export function DisplayTasksWithContent(props){
@@ -38,9 +39,16 @@ import styles from './DisplayTasksWithContent.module.css'
      <li
      key={task.id}
      >
-       
+       <input 
+        type="checkbox"
+            
+         />
 
-            {task.content}
+          <span>
+          {task.content}
+          </span>
+         
+          <img src={Trash} alt="Apagar Tarefa" />
             
      </li>
        

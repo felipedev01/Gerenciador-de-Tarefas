@@ -14,9 +14,11 @@
     line-height: 1.4rem;
     margin-top: 1rem;
 
-}.taskContainetText ul{
+}
+.taskContainetText li{
 
     list-style:none;
+    background-color: var(--gray-500);
 
 }
 

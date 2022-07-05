@@ -3,7 +3,9 @@ import styles from './DisplayTasksContent.module.css'
 import ClipBoard from '../Assets/Clipboard.png'
  
 
-export function DisplayTasksContent(){
+export function DisplayTasksContent(props){
+
+  console.log(props.tasksContent)
 
     return(
      <div>

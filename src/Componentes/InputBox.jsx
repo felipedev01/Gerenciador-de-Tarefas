@@ -4,6 +4,9 @@ import { useState } from 'react'
 
 
 export function InputBox(){
+
+
+    
      
     const [newTask,setNewTask] =useState('')
 
@@ -13,7 +16,11 @@ export function InputBox(){
         setNewTask(event.target.value)
         console.log(newTask)
       }
+
+      
     return(
+
+       
         <form className={styles.InputBox}>
            <textarea 
            placeholder='Adicione uma nova tarefa'

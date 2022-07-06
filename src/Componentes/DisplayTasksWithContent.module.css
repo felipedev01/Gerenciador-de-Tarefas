@@ -17,8 +17,10 @@
 }
 .taskContainetText li{
 
-    list-style:none;
+    list-style: none;
     background-color: var(--gray-500);
+    height: 4.5rem;
+    margin-bottom: 0.75rem;
 
 }
 .checkBox{

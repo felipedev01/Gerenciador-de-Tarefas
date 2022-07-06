@@ -1,4 +1,6 @@
 import styles from './DisplayTasksWithContent.module.css'
+import Trash from '../Assets/trash3.svg'
+import checkBox from '../Assets/checkBox.svg'
  
  
  export function DisplayTasksWithContent(props){
@@ -12,7 +14,7 @@ import styles from './DisplayTasksWithContent.module.css'
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>
-        <span className={styles.taskCount}>10</span>
+        <span className={styles.taskCount}>0</span>
         </strong>
         
         <strong className={styles.doneTasks}>
@@ -20,27 +22,41 @@ import styles from './DisplayTasksWithContent.module.css'
           Concluídas
           </span>
          
-        <span className={styles.taskCount}>12</span>
+        <span className={styles.taskCount}>2 de 5</span>
         </strong>
         
     </header>
       
        <div className={styles.taskContainetText}>
 
-       {props.tasksContent.map(task=>{
+       <ul>
+
+        
+        {props.tasksContent.map(task=>{
 
                
-              return(
-                
-                   
-                <p key={task.id}>
+      return(
+  
+     <li
+     key={task.id}
+     >
+       <img src={checkBox} className={styles.checkBox} > 
+       </img>
+
+          <span>
+          {task.content}
+          </span>
+         
+          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
             
-               {task.content}
-                  </p>
-                
-               
-              )
-            })}
+     </li>
+       
+  
+ 
+          )
+         } )}
+        
+      </ul>
       
      </div>
       </div>

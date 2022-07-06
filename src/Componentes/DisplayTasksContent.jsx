@@ -19,7 +19,10 @@ export function DisplayTasksContent(props){
 
     return(
 
-      <DisplayTasksWithContent tasksContent={props.tasksContent} ></DisplayTasksWithContent>
+      <DisplayTasksWithContent 
+      tasksContent={props.tasksContent} >
+        
+      </DisplayTasksWithContent>
      
      )
 

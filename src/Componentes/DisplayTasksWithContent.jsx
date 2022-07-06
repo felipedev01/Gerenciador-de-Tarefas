@@ -1,5 +1,5 @@
 import styles from './DisplayTasksWithContent.module.css'
-import Trash from '../Assets/trash.svg'
+import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
  
  
@@ -40,14 +40,14 @@ import checkBox from '../Assets/checkBox.svg'
      <li
      key={task.id}
      >
-       <img src={checkBox}> 
+       <img src={checkBox} className={styles.checkBox} > 
        </img>
 
           <span>
           {task.content}
           </span>
          
-          <img src={Trash} alt="Apagar Tarefa" />
+          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
             
      </li>
        

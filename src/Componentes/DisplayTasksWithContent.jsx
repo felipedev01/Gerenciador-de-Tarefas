@@ -1,5 +1,6 @@
 import styles from './DisplayTasksWithContent.module.css'
 import Trash from '../Assets/trash.svg'
+import checkBox from '../Assets/checkBox.svg'
  
  
  export function DisplayTasksWithContent(props){
@@ -39,10 +40,8 @@ import Trash from '../Assets/trash.svg'
      <li
      key={task.id}
      >
-       <input 
-        type="checkbox"
-            
-         />
+       <img src={checkBox}> 
+       </img>
 
           <span>
           {task.content}

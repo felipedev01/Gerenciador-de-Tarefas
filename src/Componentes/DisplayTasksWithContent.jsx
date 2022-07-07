@@ -37,19 +37,27 @@ import checkBox from '../Assets/checkBox.svg'
                
       return(
   
-     <li
+        
+           <li
      key={task.id}
      >
-       <img src={checkBox} className={styles.checkBox} > 
+ 
+      <img src={checkBox} className={styles.checkBox} > 
        </img>
 
-          <span>
-          {task.content}
-          </span>
+         <p>
+         {task.content}
+         </p>
+          
+          
          
           <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
+     
+      
             
      </li>
+        
+    
        
   
  

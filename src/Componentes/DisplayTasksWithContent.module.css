@@ -12,25 +12,44 @@
     font-weight: 400;
     height: 2.75rem;
     line-height: 1.4rem;
-    margin-top: 1rem;
+    margin-top: 0.125rem;
 
 }
 .taskContainetText li{
 
     list-style: none;
     background-color: var(--gray-500);
-    height: 4.5rem;
     margin-bottom: 0.75rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    min-height:4.5rem;
 
+
+}.taskContainetText p{
+    color: var(--gray-100);
+    width: 39.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.225rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-inline: 1rem;
 }
 .checkBox{
     width: 1rem;
     height: 1rem;
+    margin-left: 0.2rem;
+    
+}.checkBox span{
+    width: 100%;
     
 }
 .trash {
     width: 0.78rem;
     height: 0.875rem;
+    margin-right: 0.345rem;
 }
     
 

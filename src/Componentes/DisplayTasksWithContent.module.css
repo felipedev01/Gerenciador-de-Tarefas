@@ -26,6 +26,15 @@
     min-height:4.5rem;
 
 
+}.taskContainetText p{
+    color: var(--gray-100);
+    width: 39.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.225rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
 }
 .checkBox{
     width: 1rem;
@@ -39,6 +48,7 @@
 .trash {
     width: 0.78rem;
     height: 0.875rem;
+    margin-right: 0.345rem;
 }
     
 

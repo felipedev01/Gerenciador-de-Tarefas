@@ -17,7 +17,7 @@ import './Global.css'
     },
     {
       id:2,
-      content:'Alimentar o gato',
+      content:'Alimentar o gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato',
     },
     {
       id:3,

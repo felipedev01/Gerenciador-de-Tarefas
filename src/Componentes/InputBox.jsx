@@ -22,7 +22,8 @@ export function InputBox({tasksContent ,onCreateTask}){
       function handleCreateTask(){
           
         event.preventDefault()
-        onCreateTask('função passada com sucesso')
+        onCreateTask(newTask)
+        setNewTask([''])
         
       }
       
@@ -37,6 +38,7 @@ export function InputBox({tasksContent ,onCreateTask}){
            placeholder='Adicione uma nova tarefa'
            required
            onChange={handleNewTask}
+           value={newTask}
            >
 
            </textarea>

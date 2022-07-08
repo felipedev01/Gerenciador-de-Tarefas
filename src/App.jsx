@@ -29,15 +29,26 @@ import './Global.css'
 
 console.log(tasks)
 
-function handleCreateTask(task){
-/*
+function handleCreateTask(newTask){
+
   event.preventDefault()
+  if(tasks=!""){
+    let id=1;
+  if(tasks.length >= 1){
+    id=tasks[tasks.length-1].id+1
+  }
+
+  let currentTask={id:id,content:newTask,isComplete:false}
+ 
+  setTasks([...tasks,currentTask])
+
+  setNewTaskTitle("")
+  }
      
      setTasks([...tasks,newTask])
     
-     setNewTask([''])*/
-     console.log('Função passada com sucesso')
-        
+   
+    
 }
   
  return(

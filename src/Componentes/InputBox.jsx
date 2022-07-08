@@ -3,10 +3,11 @@ import createLogo from '../Assets/Layer 2.svg'
 import { useState } from 'react'
 
 
-export function InputBox(props){
+export function InputBox({tasksContent ,onCreateTask}){
 
  
-  console.log(props.tasksContent)
+  console.log(tasksContent)
+ 
     
      
     const [newTask,setNewTask] =useState('')
@@ -17,22 +18,31 @@ export function InputBox(props){
         setNewTask(event.target.value)
         console.log(newTask)
       }
-
+     
+      function handleCreateTask(){
+          
+        event.preventDefault()
+        onCreateTask(newTask)
+        setNewTask([''])
+        
+      }
+      
      
 
       
     return(
 
        
-        <form className={styles.InputBox} >
+        <form className={styles.InputBox} onSubmit={handleCreateTask} >
            <textarea 
            placeholder='Adicione uma nova tarefa'
            required
            onChange={handleNewTask}
+           value={newTask}
            >
 
            </textarea>
-           <button>
+           <button type='submit'>
 
             Criar
              <img src={createLogo} size={40} alt="" />

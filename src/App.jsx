@@ -29,6 +29,16 @@ import './Global.css'
 
 console.log(tasks)
 
+function handleCreateTask(task){
+/*
+  event.preventDefault()
+     
+     setTasks([...tasks,newTask])
+    
+     setNewTask([''])*/
+     console.log(task)
+        
+}
   
  return(
 
@@ -44,7 +54,11 @@ console.log(tasks)
 
   <section className={styles.displayTask}>
 
-    <DisplayTasksContent tasksContent={tasks}></DisplayTasksContent>
+    <DisplayTasksContent 
+     tasksContent={tasks}
+     onCreateTask={handleCreateTask}>
+
+     </DisplayTasksContent>
    
   </section>
   </main>

@@ -36,7 +36,7 @@ function handleCreateTask(task){
      setTasks([...tasks,newTask])
     
      setNewTask([''])*/
-     console.log(task)
+     console.log('Função passada com sucesso')
         
 }
   
@@ -50,13 +50,16 @@ function handleCreateTask(task){
   <div className={styles.Wrapper}>
 
   <main >
-  <InputBox tasksContent={tasks}></InputBox>
+  <InputBox 
+  tasksContent={tasks}
+  onCreateTask={handleCreateTask}
+  ></InputBox>
 
   <section className={styles.displayTask}>
 
     <DisplayTasksContent 
      tasksContent={tasks}
-     onCreateTask={handleCreateTask}>
+     >
 
      </DisplayTasksContent>
    

@@ -22,7 +22,7 @@ export function InputBox({tasksContent ,onCreateTask}){
       function handleCreateTask(){
           
         event.preventDefault()
-        console.log('Função passada com sucesso')
+        onCreateTask('função passada com sucesso')
         
       }
       

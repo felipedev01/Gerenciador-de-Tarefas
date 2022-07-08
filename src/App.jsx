@@ -40,7 +40,7 @@ console.log(tasks)
   <div className={styles.Wrapper}>
 
   <main >
-  <InputBox></InputBox>
+  <InputBox tasksContent={tasks}></InputBox>
 
   <section className={styles.displayTask}>
 

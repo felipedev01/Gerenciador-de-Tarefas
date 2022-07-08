@@ -3,9 +3,10 @@ import createLogo from '../Assets/Layer 2.svg'
 import { useState } from 'react'
 
 
-export function InputBox(){
+export function InputBox(props){
 
-
+ 
+  console.log(props.tasksContent)
     
      
     const [newTask,setNewTask] =useState('')
@@ -17,11 +18,13 @@ export function InputBox(){
         console.log(newTask)
       }
 
+     
+
       
     return(
 
        
-        <form className={styles.InputBox}>
+        <form className={styles.InputBox} >
            <textarea 
            placeholder='Adicione uma nova tarefa'
            required

@@ -31,19 +31,30 @@ console.log(tasks)
 
 function handleCreateTask(newTask){
 
+   var id=0;
 
+  if(tasks.length == 0){
 
- setTasks([
+    id=1;
+  }else{
+    id=tasks[tasks.length-1].id+1
+  }
+
+let currentTask=
 
   {
-    id:1,
+    id:id,
     content:newTask,
-  },
+  }
   
   
   
-])
 
+
+ setTasks([...tasks,currentTask])
+
+  
+console.log(currentTask)
 
 
 

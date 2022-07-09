@@ -5,6 +5,8 @@ import checkBox from '../Assets/checkBox.svg'
  
  export function DisplayTasksWithContent(props){
 
+
+  console.log(props.tasksContent)
     
     return(
 

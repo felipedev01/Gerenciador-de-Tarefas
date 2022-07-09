@@ -31,14 +31,36 @@ console.log(tasks)
 
 function handleCreateTask(newTask){
 
+
+
+ setTasks([
+
+  {
+    id:1,
+    content:newTask,
+  },
+  
+  
+  
+])
+
+
+
+
+
+
+
+
+
+  /*
   event.preventDefault()
-  if(tasks=!""){
+  if(tasks.length == 0){
     let id=1;
   if(tasks.length >= 1){
     id=tasks[tasks.length-1].id+1
   }
 
-  let currentTask={id:id,content:newTask,isComplete:false}
+  let currentTask={id:id,content:newTask}
  
   setTasks([...tasks,currentTask])
 
@@ -47,7 +69,7 @@ function handleCreateTask(newTask){
      
      setTasks([...tasks,newTask])
     
-   
+   */
     
 }
   

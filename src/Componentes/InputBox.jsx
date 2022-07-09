@@ -23,7 +23,7 @@ export function InputBox({tasksContent ,onCreateTask}){
           
         event.preventDefault()
         onCreateTask(newTask)
-        setNewTask([''])
+       
         
       }
       

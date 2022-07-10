@@ -3,14 +3,15 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
  
  
- export function DisplayTasksWithContent(props){
+ export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
 
 
-  console.log(props.tasksContent[0].id)
+  
 
   function onDeleteTask(id){
 
-    alert('O id desta tarefa é'+' '+id+' '+'Ponto')
+    onDeleteTask(id)
+    
     
   }
     
@@ -40,7 +41,7 @@ import checkBox from '../Assets/checkBox.svg'
        <ul>
 
         
-        {props.tasksContent.map(task=>{
+        {tasksContent.map(task=>{
 
                
       return(

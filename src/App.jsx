@@ -57,12 +57,14 @@ let currentTask=
 console.log(currentTask)
 
     
-} function deleteTask(){
+} function deleteTask(id){
 
+  alert('O id desta tarefa é'+' '+id+' '+'Ponto')
+  /*
   const tasksWithoutDeletedOne=tasks.filter(task =>{
     return task !== commentToDelete;
   })
-
+*/
 }
   
  return(
@@ -84,6 +86,7 @@ console.log(currentTask)
 
     <DisplayTasksContent 
      tasksContent={tasks}
+     onDeleteTask={deleteTask}
      >
 
      </DisplayTasksContent>

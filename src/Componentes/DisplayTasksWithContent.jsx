@@ -6,11 +6,11 @@ import checkBox from '../Assets/checkBox.svg'
  export function DisplayTasksWithContent(props){
 
 
-  console.log(props.tasksContent)
+  console.log(props.tasksContent[0].id)
 
-  function onDeleteTask(){
+  function onDeleteTask(id){
 
-    deleteTask(commentText)
+    alert('O id desta tarefa é'+' '+id+' '+'Ponto')
     
   }
     
@@ -58,7 +58,7 @@ import checkBox from '../Assets/checkBox.svg'
          </p>
           
           
-         <button className={styles.deleteButton} onClick={onDeleteTask}>
+         <button className={styles.deleteButton} onClick={( ) => onDeleteTask(task.id)}>
          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
          </button>
          

@@ -57,9 +57,12 @@ let currentTask=
 console.log(currentTask)
 
     
-} function handleDeleteTask(){
+} function deleteTask(){
 
-  
+  const tasksWithoutDeletedOne=tasks.filter(task =>{
+    return task !== commentToDelete;
+  })
+
 }
   
  return(

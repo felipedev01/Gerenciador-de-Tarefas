@@ -56,32 +56,15 @@ let currentTask=
   
 console.log(currentTask)
 
+    
+} function deleteTask(id){
 
-
-
-
-
-
-
+  alert('O id desta tarefa é'+' '+id+' '+'Ponto')
   /*
-  event.preventDefault()
-  if(tasks.length == 0){
-    let id=1;
-  if(tasks.length >= 1){
-    id=tasks[tasks.length-1].id+1
-  }
-
-  let currentTask={id:id,content:newTask}
- 
-  setTasks([...tasks,currentTask])
-
-  setNewTaskTitle("")
-  }
-     
-     setTasks([...tasks,newTask])
-    
-   */
-    
+  const tasksWithoutDeletedOne=tasks.filter(task =>{
+    return task !== commentToDelete;
+  })
+*/
 }
   
  return(
@@ -103,6 +86,7 @@ console.log(currentTask)
 
     <DisplayTasksContent 
      tasksContent={tasks}
+     onDeleteTask={deleteTask}
      >
 
      </DisplayTasksContent>

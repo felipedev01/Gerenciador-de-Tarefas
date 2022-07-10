@@ -3,10 +3,17 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
  
  
- export function DisplayTasksWithContent(props){
+ export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
 
 
-  console.log(props.tasksContent)
+  
+
+  function onDeleteTask(id){
+
+    onDeleteTask(id)
+    
+    
+  }
     
     return(
 
@@ -34,7 +41,7 @@ import checkBox from '../Assets/checkBox.svg'
        <ul>
 
         
-        {props.tasksContent.map(task=>{
+        {tasksContent.map(task=>{
 
                
       return(
@@ -52,8 +59,10 @@ import checkBox from '../Assets/checkBox.svg'
          </p>
           
           
+         <button className={styles.deleteButton} onClick={( ) => onDeleteTask(task.id)}>
+         <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
+         </button>
          
-          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
      
       
             

@@ -56,32 +56,10 @@ let currentTask=
   
 console.log(currentTask)
 
-
-
-
-
-
-
-
-  /*
-  event.preventDefault()
-  if(tasks.length == 0){
-    let id=1;
-  if(tasks.length >= 1){
-    id=tasks[tasks.length-1].id+1
-  }
-
-  let currentTask={id:id,content:newTask}
- 
-  setTasks([...tasks,currentTask])
-
-  setNewTaskTitle("")
-  }
-     
-     setTasks([...tasks,newTask])
     
-   */
-    
+} function handleDeleteTask(){
+
+  
 }
   
  return(

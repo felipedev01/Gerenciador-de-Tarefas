@@ -52,8 +52,10 @@ import checkBox from '../Assets/checkBox.svg'
          </p>
           
           
+         <button>
+         <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
+         </button>
          
-          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
      
       
             

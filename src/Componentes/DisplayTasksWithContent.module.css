@@ -38,6 +38,15 @@
     margin-inline: 1rem;
     white-space: normal;
     word-break: break-all;
+
+} .deleteButton{
+    background-color: transparent;
+    color:var(--gray-400);
+    height:1.5rem;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+
 }
 .checkBox{
     width: 1rem;

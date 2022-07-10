@@ -7,6 +7,12 @@ import checkBox from '../Assets/checkBox.svg'
 
 
   console.log(props.tasksContent)
+
+  function onDeleteTask(){
+
+    deleteTask(commentText)
+    
+  }
     
     return(
 
@@ -52,7 +58,7 @@ import checkBox from '../Assets/checkBox.svg'
          </p>
           
           
-         <button className={styles.deleteButton}>
+         <button className={styles.deleteButton} onClick={onDeleteTask}>
          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
          </button>
          

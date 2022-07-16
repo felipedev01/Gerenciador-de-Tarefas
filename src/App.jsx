@@ -59,7 +59,7 @@ console.log(currentTask)
     
 } function deleteTask(id){
 
-  alert('O id desta tarefa é'+' '+id+' '+'Ponto')
+  alert('O id desta tarefa eh'+' '+id+' '+'Ponto')
   /*
   const tasksWithoutDeletedOne=tasks.filter(task =>{
     return task !== commentToDelete;

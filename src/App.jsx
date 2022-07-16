@@ -21,7 +21,7 @@ import './Global.css'
     },
     {
       id:3,
-      content:'Colocar o gato para dormir Colocar o gato para dormir Colocar o gato para dormir',
+      content:'Colocar o gato para dormir Colocar o gato para dormir Colocar o gato para dormir Colocar o gato para dormir',
     }
     
     

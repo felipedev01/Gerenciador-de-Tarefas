@@ -15,12 +15,12 @@
     color: var(--gray-100);
     font-weight: 700;
     background: var(--blueDark-100);
+    background:orange;
     font-size:0.875rem !Important;
 }textarea{
     border-radius: 8px;
     padding: 1rem;
     background: var(--gray-500);
-    background:green;
     border: 1px solid var(--gray-700);
     resize: none;
 }textarea::placeholder {

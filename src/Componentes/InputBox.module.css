@@ -15,7 +15,6 @@
     color: var(--gray-100);
     font-weight: 700;
     background: var(--blueDark-100);
-    background:orange;
     font-size:0.875rem !Important;
 }textarea{
     border-radius: 8px;

@@ -57,6 +57,14 @@
     width: 100%;
     
 }
+.buttonCheckBox{
+    background-color: transparent;
+    color:var(--gray-400);
+    height:1.5rem;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+}
 .trash {
     width: 0.78rem;
     height: 0.875rem;

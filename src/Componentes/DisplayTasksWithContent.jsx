@@ -51,8 +51,11 @@ import checkBox from '../Assets/checkBox.svg'
      key={task.id}
      >
  
-      <img src={checkBox} className={styles.checkBox} > 
+     <button className={styles.buttonCheckBox}>
+     <img src={checkBox} className={styles.checkBox} > 
        </img>
+     </button>
+      
 
          <p>
          {task.content}

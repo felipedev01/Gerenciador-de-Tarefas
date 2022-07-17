@@ -20,6 +20,7 @@
     border-radius: 8px;
     padding: 1rem;
     background: var(--gray-500);
+    background:green;
     border: 1px solid var(--gray-700);
     resize: none;
 }textarea::placeholder {

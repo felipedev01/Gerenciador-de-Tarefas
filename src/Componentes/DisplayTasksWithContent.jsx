@@ -8,7 +8,7 @@ import checkBox from '../Assets/checkBox.svg'
 
   
 
-  function onDeleteTask(id){
+  function onDeleteTask2(id){
 
     onDeleteTask(id)
     
@@ -59,7 +59,7 @@ import checkBox from '../Assets/checkBox.svg'
          </p>
           
           
-         <button className={styles.deleteButton} onClick={( ) => onDeleteTask(task.id)}>
+         <button className={styles.deleteButton} onClick={( ) => onDeleteTask2(task.id)}>
          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
          </button>
          

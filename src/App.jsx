@@ -11,20 +11,7 @@ import './Global.css'
 
   const[tasks, setTasks]=useState([
 
-    {
-      id:1,
-      content:'Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato',
-    },
-    {
-      id:2,
-      content:'Alimentar o gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato Trocar a caixa de areia do gato',
-    },
-    {
-      id:3,
-      content:'Colocar o gato para dormir Colocar o gato para dormir Colocar o gato para dormir Colocar o gato para dormir',
-    }
-    
-    
+  
 ])
 
 console.log(tasks)
@@ -59,12 +46,10 @@ console.log(currentTask)
     
 } function deleteTask(id){
 
-  alert('O id desta tarefa eh'+' '+id+' '+'Ponto')
-  /*
   const tasksWithoutDeletedOne=tasks.filter(task =>{
-    return task !== commentToDelete;
+    return task.id !== id;
   })
-*/
+setTasks(tasksWithoutDeletedOne)
 }
   
  return(

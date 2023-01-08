@@ -35,7 +35,7 @@ import { useState } from 'react'
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>
-        <span className={styles.taskCount}>0</span>
+        <span className={styles.taskCount}>{tasksContent.length}</span>
         </strong>
         
         <strong className={styles.doneTasks}>

@@ -15,7 +15,7 @@
     margin-top: 0.125rem;
 
 }
-.taskContainetText li{
+.pendingTask{
 
     list-style: none;
     background-color: var(--gray-500);
@@ -26,7 +26,19 @@
     min-height:4.5rem;
 
 
-}.taskContainetText p{
+}
+.taskDone {
+    list-style: none;
+    background-color: var(--gray-500);
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    min-height:4.5rem;
+    
+}
+
+.pendingTask p{
     color: var(--gray-100);
     width: 39.5rem;
     font-size: 0.875rem;
@@ -39,7 +51,24 @@
     white-space: normal;
     word-break: break-all;
 
-} .deleteButton{
+}
+.taskDone p{
+    color: var(--gray-100);
+    width: 39.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.225rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-inline: 1rem;
+    white-space: normal;
+    word-break: break-all;
+    text-decoration: line-through;
+    color: var(--gray-300);
+
+}
+ .deleteButton{
     background-color: transparent;
     color:var(--gray-400);
     height:1.5rem;

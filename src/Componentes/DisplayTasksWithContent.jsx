@@ -1,11 +1,23 @@
 import styles from './DisplayTasksWithContent.module.css'
 import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
+import checkBoxDone from '../Assets/checkBoxDone.svg'
+import { useState } from 'react'
  
  
  export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
 
+  const[flaggedTask , setFlaggedTask]=useState(true)
 
+  function handleFlagTask(){
+
+    if(flaggedTask==true){
+      setFlaggedTask(false);
+    }
+    else{
+      setFlaggedTask(true);
+    }
+}
   
 
   function onDeleteTask2(id){
@@ -47,12 +59,12 @@ import checkBox from '../Assets/checkBox.svg'
       return(
   
         
-           <li
+           <li className={flaggedTask ? styles.pendingTask : styles.taskDone}
      key={task.id}
      >
  
-     <button className={styles.buttonCheckBox}>
-     <img src={checkBox} className={styles.checkBox} > 
+     <button className={styles.buttonCheckBox} onClick={handleFlagTask}>
+     <img src={flaggedTask ? checkBox : checkBoxDone} className={styles.checkBox} > 
        </img>
      </button>
       

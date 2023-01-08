@@ -3,22 +3,13 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 import { useState } from 'react'
+import { Tasks } from './tasks'
  
  
  export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
 
-  const[flaggedTask , setFlaggedTask]=useState(true)
-
-  function handleFlagTask(){
-
-    if(flaggedTask==true){
-      setFlaggedTask(false);
-    }
-    else{
-      setFlaggedTask(true);
-    }
-}
-  
+ 
+  console.log(tasksContent)
 
   function onDeleteTask2(id){
 
@@ -49,48 +40,13 @@ import { useState } from 'react'
     </header>
       
        <div className={styles.taskContainetText}>
+       {
+        tasksContent.map(task=>{
 
-       <ul>
-
-        
-        {tasksContent.map(task=>{
-
-               
-      return(
-  
-        
-           <li className={flaggedTask ? styles.pendingTask : styles.taskDone}
-     key={task.id}
-     >
- 
-     <button className={styles.buttonCheckBox} onClick={handleFlagTask}>
-     <img src={flaggedTask ? checkBox : checkBoxDone} className={styles.checkBox} > 
-       </img>
-     </button>
-      
-
-         <p>
-         {task.content}
-         </p>
-          
-          
-         <button className={styles.deleteButton} onClick={( ) => onDeleteTask2(task.id)}>
-         <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
-         </button>
-         
-     
-      
-            
-     </li>
-        
-    
+          <Tasks tasksContent={task}/>
+        })
+       }
        
-  
- 
-          )
-         } )}
-        
-      </ul>
       
      </div>
       </div>

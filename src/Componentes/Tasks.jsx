@@ -4,9 +4,15 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 
-export function Tasks({content}){
+export function Tasks({content, onDeleteTask}){
 
     console.log(content)
+    function onDeleteTask3(id){
+
+      onDeleteTask(id)
+      
+      
+    }
 
     const[flaggedTask , setFlaggedTask]=useState(true)
 
@@ -34,11 +40,11 @@ export function Tasks({content}){
       
 
          <p>
-         {content}
+         {content.content}
          </p>
           
           
-         <button className={styles.deleteButton} onClick={( ) => onDeleteTask2(task.id)}>
+         <button className={styles.deleteButton} onClick={( ) => onDeleteTask3(content.id)}>
          <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
          </button>
          

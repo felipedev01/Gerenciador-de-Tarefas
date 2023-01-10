@@ -44,7 +44,9 @@ import { Tasks } from './Tasks'
        {
                 tasksContent.map(task =>{
                         return(
-                            <Tasks  content={task.content} />
+                            <Tasks  content={task} 
+                            onDeleteTask={onDeleteTask2}
+                            />
                             
                     )
                     })

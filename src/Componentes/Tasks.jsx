@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import styles from './tasks.module.css'
+import styles from './Tasks.module.css'
 import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 
-export function Tasks({tasksContent}){
+export function Tasks({content}){
 
-    console.log(tasksContent)
+    console.log(content)
 
     const[flaggedTask , setFlaggedTask]=useState(true)
 
@@ -21,10 +21,10 @@ export function Tasks({tasksContent}){
   }
 
     return(
-        <ul>
+       
 
            <li className={flaggedTask ? styles.pendingTask : styles.taskDone}
-     key={task.id}
+     
      >
  
      <button className={styles.buttonCheckBox} onClick={handleFlagTask}>
@@ -34,7 +34,7 @@ export function Tasks({tasksContent}){
       
 
          <p>
-         {tasksContent}
+         {content}
          </p>
           
           
@@ -48,6 +48,6 @@ export function Tasks({tasksContent}){
      </li>
         
         
-      </ul>
+      
     )
 }

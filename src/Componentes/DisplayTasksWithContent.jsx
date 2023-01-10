@@ -3,7 +3,7 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 import { useState } from 'react'
-import { Tasks } from './tasks'
+import { Tasks } from './Tasks'
  
  
  export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
@@ -11,7 +11,7 @@ import { Tasks } from './tasks'
  
   console.log(tasksContent)
 
-  function onDeleteTask2(id){
+ function onDeleteTask2(id){
 
     onDeleteTask(id)
     
@@ -40,13 +40,16 @@ import { Tasks } from './tasks'
     </header>
       
        <div className={styles.taskContainetText}>
+      
        {
-        tasksContent.map(task=>{
+                tasksContent.map(task =>{
+                        return(
+                            <Tasks  content={task.content} />
+                            
+                    )
+                    })
+                }
 
-          <Tasks tasksContent={task}/>
-        })
-       }
-       
       
      </div>
       </div>

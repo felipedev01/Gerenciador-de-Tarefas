@@ -4,25 +4,37 @@ import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 
-export function Tasks({content, onDeleteTask}){
+export function Tasks({content, onDeleteTask, taskCount}){
 
     console.log(content)
+    
+
     function onDeleteTask3(id){
 
       onDeleteTask(id)
       
       
     }
+    function taskCount2(n){
+     taskCount(n)
+    }
+    
 
     const[flaggedTask , setFlaggedTask]=useState(true)
 
+    
+
     function handleFlagTask(){
+
+      
   
       if(flaggedTask==true){
         setFlaggedTask(false);
+        taskCount2(+1)
       }
       else{
         setFlaggedTask(true);
+        taskCount2(-1)
       }
   }
 

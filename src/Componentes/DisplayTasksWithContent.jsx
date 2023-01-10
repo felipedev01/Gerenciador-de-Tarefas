@@ -10,6 +10,11 @@ import { Tasks } from './Tasks'
 
  
   console.log(tasksContent)
+ const[doneTaskCount,setDoneTaskCount]=useState(0)
+
+ function taskCount(n){
+  setDoneTaskCount(tasksContent.length-n)
+ }
 
  function onDeleteTask2(id){
 
@@ -34,7 +39,7 @@ import { Tasks } from './Tasks'
           Concluídas
           </span>
          
-        <span className={styles.taskCount}>2 de 5</span>
+        <span className={styles.taskCount}>{doneTaskCount} de {tasksContent.length}</span>
         </strong>
         
     </header>
@@ -46,6 +51,7 @@ import { Tasks } from './Tasks'
                         return(
                             <Tasks  content={task} 
                             onDeleteTask={onDeleteTask2}
+                            taskCount={taskCount}
                             />
                             
                     )

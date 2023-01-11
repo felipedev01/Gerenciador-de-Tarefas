@@ -30,7 +30,7 @@ export function Tasks({content, onDeleteTask, taskCount}){
   
       if(flaggedTask==true){
         setFlaggedTask(false);
-        taskCount2(+1)
+        taskCount2(1)
       }
       else{
         setFlaggedTask(true);

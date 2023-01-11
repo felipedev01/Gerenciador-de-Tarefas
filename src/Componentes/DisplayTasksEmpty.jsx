@@ -1,7 +1,7 @@
 import styles from './DisplayTasksEmpty.module.css'
 import ClipBoard from '../Assets/Clipboard.png'
 
-export function DisplayTasksEmpty(){
+export function DisplayTasksEmpty({doneTaskTotalCount}){
 
     return(
         <div>
@@ -18,7 +18,7 @@ export function DisplayTasksEmpty(){
           Concluídas
           </span>
          
-        <span className={styles.taskCount}>12</span>
+        <span className={styles.taskCount}>{doneTaskTotalCount}</span>
         </strong>
         
     </header>

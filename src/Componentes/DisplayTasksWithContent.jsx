@@ -6,14 +6,18 @@ import { useState } from 'react'
 import { Tasks } from './Tasks'
  
  
- export function DisplayTasksWithContent({tasksContent, onDeleteTask}){
+ export function DisplayTasksWithContent({tasksContent, onDeleteTask,taskCount3}){
 
  
   console.log(tasksContent)
  const[doneTaskCount,setDoneTaskCount]=useState(0)
 
+ 
+
  function taskCount(n){
-  setDoneTaskCount(tasksContent.length-n)
+  taskCount3(n)
+  setDoneTaskCount(doneTaskCount+n)
+  
  }
 
  function onDeleteTask2(id){

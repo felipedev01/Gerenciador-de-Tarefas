@@ -16,7 +16,9 @@ import { Tasks } from './Tasks'
 
  function taskCount(n){
   taskCount3(n)
-  setDoneTaskCount(doneTaskCount+n)
+  
+    setDoneTaskCount(doneTaskCount+n)
+  
   
  }
 

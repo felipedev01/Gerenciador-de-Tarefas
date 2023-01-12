@@ -8,10 +8,19 @@ export function Tasks({content, onDeleteTask, taskCount}){
 
     console.log(content)
     
+    const[flaggedTask , setFlaggedTask]=useState(true)
+
 
     function onDeleteTask3(id){
 
       onDeleteTask(id)
+      
+      if(flaggedTask==false){
+        taskCount(-1)
+      }
+        
+      
+      
       
       
     }
@@ -20,8 +29,7 @@ export function Tasks({content, onDeleteTask, taskCount}){
     }
     
 
-    const[flaggedTask , setFlaggedTask]=useState(true)
-
+    
     
 
     function handleFlagTask(){

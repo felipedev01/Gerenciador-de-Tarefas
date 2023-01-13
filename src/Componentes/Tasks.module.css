@@ -69,13 +69,17 @@ taskContainerIcon{
 
 }
  .deleteButton{
-    background-color: transparent;
+    background-color: transparent;  
     color:var(--gray-400);
     height:1.5rem;
     border: none;
     line-height: 0;
     cursor: pointer;
 
+}
+.deleteButton:Hover{   
+    background-color: white;  
+    
 }
 .checkBox{
     width: 1rem;

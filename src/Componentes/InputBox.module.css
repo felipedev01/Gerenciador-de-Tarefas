@@ -16,7 +16,15 @@
     font-weight: 700;
     background: var(--blueDark-100);
     font-size:0.875rem !Important;
-}textarea{
+}
+.InputBox>button:Hover{
+    
+    background:var(--blue-100);
+    transition:0.2s;
+    
+}
+
+textarea{
     border-radius: 8px;
     padding: 1rem;
     background: var(--gray-500);

@@ -41,7 +41,7 @@ taskContainerIcon{
 .pendingTask p{
     color: var(--gray-100);
     width: 39.5rem;
-    font-size: 0.875rem;
+    font-size: 0.8751rem;
     font-weight: 400;
     line-height: 1.225rem;
     display: flex;

@@ -45,7 +45,7 @@ export function InputBox({tasksContent ,onCreateTask}){
            <button type='submit'>
 
             Criar
-             <img src={createLogo} size={40} alt="" />
+             <img src={createLogo}alt="" />
            </button>
         </form>
     )

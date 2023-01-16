@@ -24,7 +24,7 @@
     box-sizing:border-box;
 }
 body{
-    background:var(--gray-800);
+    background:var(--gray-600);
     -webkit-font-smoothing:antialiased;
 }
 body,input,textarea,button{
@@ -32,5 +32,6 @@ body,input,textarea,button{
     //font-weight:400;
     font-size:1rem;
     color:var(--gray-100);
+    
     
 }

@@ -36,4 +36,6 @@ textarea{
 }.InputBox img{
     margin-left: 0.5rem;
     margin-bottom: -0.1875rem;
+    height:1rem;
+    width:1rem;
 }

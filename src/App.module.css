@@ -68,3 +68,11 @@ main{
 }.taskCount{
     font-size: 0.75rem;
 }
+@media(max-width: 768px){
+
+   html{
+     font-size:14px
+   }
+
+
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from './Tasks.module.css'
-import Trash from '../Assets/trash3.svg'
+import { Trash } from 'phosphor-react'
+//import Trash from '../Assets/trash3.svg'
 import checkBox from '../Assets/checkBox.svg'
 import checkBoxDone from '../Assets/checkBoxDone.svg'
 
@@ -65,7 +66,7 @@ export function Tasks({content, onDeleteTask, taskCount}){
           
           
          <button className={styles.deleteButton} onClick={( ) => onDeleteTask3(content.id)}>
-         <img src={Trash} alt="Apagar Tarefa" className={styles.trash} />
+         <Trash size={18}/>
          </button>
          
      

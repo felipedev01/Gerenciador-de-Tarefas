@@ -24,8 +24,7 @@
     box-sizing:border-box;
 }
 body{
-    //background:var(--gray-800);
-    background:orange;
+    background:var(--gray-600);
     -webkit-font-smoothing:antialiased;
 }
 body,input,textarea,button{

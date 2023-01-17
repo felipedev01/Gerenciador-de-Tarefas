@@ -89,7 +89,18 @@ taskContainerIcon{
     height: 1rem;
     margin-left: 0.2rem;
     
-}.checkBox span{
+}@media(max-width: 768px){
+
+    .checkBox{
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-left: 0.2rem;
+    }
+ 
+ 
+ }
+
+.checkBox span{
     width: 100%;
     
 }

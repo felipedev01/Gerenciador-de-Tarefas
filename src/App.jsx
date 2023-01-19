@@ -3,8 +3,36 @@ import styles from './App.module.css'
 import {InputBox} from './Componentes/InputBox'
 import { DisplayTasksContent } from './Componentes/DisplayTasksContent'
 import { useState } from 'react'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 
 import './Global.css'
+
+const CloseButton = ({ closeToast }) => (
+  <i
+    className="material-icons"
+    onClick={closeToast}
+  >
+ 
+  </i>
+);
+
+function welcome(){
+
+  
+    toast('😀 Aplicação desenvolvida por Felipe Cristovão da Silva. ',{
+      autoClose: 4000,
+      position: toast.POSITION.TOP_CENTER,
+
+  
+  })
+
+;
+  
+  
+}
+
+welcome()
 
 
  export function App() {
@@ -80,7 +108,7 @@ setTasks(tasksWithoutDeletedOne)
   </main>
   </div>
 
- 
+  <ToastContainer closeButton={CloseButton} autoClose={true}></ToastContainer>
   </div>
 
   

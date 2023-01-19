@@ -32,8 +32,8 @@ import { Tasks } from './Tasks'
     return(
 
       <div>
-      <header>
-        <strong>
+      <header >
+        <strong className={styles.createdTask}>
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>

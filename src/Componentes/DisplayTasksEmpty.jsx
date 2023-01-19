@@ -6,7 +6,7 @@ export function DisplayTasksEmpty({doneTaskTotalCount}){
     return(
         <div>
         <header>
-        <strong>
+        <strong className={styles.createdTask}>
           <span className={styles.createdTasksText}>
           Tarefas criadas
           </span>

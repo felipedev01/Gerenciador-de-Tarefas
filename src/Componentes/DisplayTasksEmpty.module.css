@@ -31,3 +31,15 @@
     margin-right:0.5rem;
     
 }
+@media(max-width: 768px){
+
+    .createdTask{
+        margin-left:0.3rem;
+    }
+    .doneTasks{
+        margin-right: 0!Important;
+        
+    }
+ 
+ 
+ }

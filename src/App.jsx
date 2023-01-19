@@ -20,7 +20,7 @@ const CloseButton = ({ closeToast }) => (
 function welcome(){
 
   
-    toast('😀 Aplicação desenvolvida por Felipe Cristovão da Silva. ',{
+    toast('😀 Seja bem vindo(a),obrigado por testar!. ',{
       autoClose: 4000,
       position: toast.POSITION.TOP_CENTER,
 

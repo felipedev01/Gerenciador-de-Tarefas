@@ -10,7 +10,7 @@
 
 ## 🔖&nbsp; Sobre
 
-O projeto **Gerenciador de tarefas**é uma aplicação que permite montar uma lista de tarefas, marca-las conforme são concluídas, e apaga-las quando desejar,esta aplicação foi criada a partir do aprendizado obtido dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
+O projeto **Gerenciador de tarefas** é uma aplicação que permite montar uma lista de tarefas, marca-las conforme são concluídas, e apaga-las quando desejar,esta aplicação foi criada a partir do aprendizado obtido dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
 
 ---
 ## 🚀 Tecnologias utilizadas

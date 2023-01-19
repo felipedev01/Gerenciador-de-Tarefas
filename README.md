@@ -1,16 +1,16 @@
 <h1 align="center">
-    Ignite 
+    Gerenciador de Tarefas
 </h1>
 <h1>
     <img src="./demonstracao4.gif">
 </h1>
 <h3 align="center">
-    <a href="https://projeto-feed-rede-social.vercel.app/">Acessar a demonstração</a>
+    <a href="https://to-do-list-kappa-blue.vercel.app/">Acessar a demonstração</a>
 <h3 >
 
 ## 🔖&nbsp; Sobre
 
-O projeto **Ignie Feed** reproduz uma página de feed de rede social, foi criado com ensinamentos obtidos dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
+O projeto **Gerenciador de tarefas**é uma aplicação que permite montar uma lista de tarefas, marca-las conforme são concluídas, e apaga-las quando desejar,esta aplicação foi criada a partir do aprendizado obtido dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
 
 ---
 ## 🚀 Tecnologias utilizadas
@@ -22,9 +22,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ## 🗂 Como baixar o projeto
 ```bash
     # Clonar o repositório
-    $ git clone https://github.com/felipedev01/Projeto-Feed-Rede-Social.git
+    $ git clone git@github.com:felipedev01/Gerenciador-de-Tarefas.git
     # Entrar no diretório
-    $ cd feed
     # Instalar as dependências
     $ yarn install
     # Iniciar o projeto

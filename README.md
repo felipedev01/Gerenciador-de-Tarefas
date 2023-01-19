@@ -1,5 +1,5 @@
-h1 align="center">
-    Ignite Feed
+<h1 align="center">
+    Ignite 
 </h1>
 <h1>
     <img src="./demonstracao4.gif">

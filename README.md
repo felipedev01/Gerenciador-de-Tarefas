@@ -2,7 +2,7 @@
     Gerenciador de Tarefas
 </h1>
 <h1>
-    <img src="./demonstracaoToDo.gif">
+    <img align="center" src="./demonstracaoToDo.gif">
 </h1>
 <h3 align="center">
     <a href="https://to-do-list-kappa-blue.vercel.app/">Acessar a demonstração</a>
@@ -10,7 +10,7 @@
 
 ## 🔖&nbsp; Sobre
 
-O projeto **Gerenciador de tarefas** é uma aplicação que permite montar uma lista de tarefas, marca-las conforme são concluídas, e apaga-las quando desejar,esta aplicação foi criada a partir do aprendizado obtido dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
+Este projeto é uma aplicação de **Controle de Tarefas **,uma aplicação que permite montar uma lista de tarefas, marca-las conforme são concluídas, e apaga-las quando desejar,esta aplicação foi criada a partir do aprendizado obtido dentro do **Ignite da Rocketseat** com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
 
 ---
 ## 🚀 Tecnologias utilizadas

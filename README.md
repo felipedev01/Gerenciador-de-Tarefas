@@ -2,7 +2,7 @@
     Gerenciador de Tarefas
 </h1>
 <h1>
-    <img src="./demonstracao4.gif">
+    <img src="./demonstracaoToDo.gif">
 </h1>
 <h3 align="center">
     <a href="https://to-do-list-kappa-blue.vercel.app/">Acessar a demonstração</a>
